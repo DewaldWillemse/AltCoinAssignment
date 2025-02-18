@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $username = trim($_POST['username']);
     $password = trim($_POST['password']);
 
-    // Hard-coded credentials for demonstration (replace with your own auth mechanism)
+    // Hard-coded credentials for demonstration
     $valid_username = 'admin';
     $valid_password = 'admin123';
 
@@ -32,7 +32,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <head>
   <meta charset="UTF-8">
   <title>Login</title>
-  <!-- Bootstrap CSS (via CDN) -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
